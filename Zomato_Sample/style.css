@@ -4,7 +4,7 @@
 } */
 
 .inner{
-  background-image: url("./image/headerImage.png");
+  background-image:url('../image/headerImage.png');
   background-size: cover;
   /* background-repeat: no-repeat; */
   height: 500px;
@@ -51,6 +51,15 @@
   --bs-btn-active-color: #000;
   --bs-btn-active-bg: #c6c7c8;
 }
+
+.resImgWidth{
+  width:25% ;
+}
+
+/* .sclrhyt{
+  height: 600px;
+  overflow-y: scroll;
+} */
 /* .bor{
   width:25%;
   height:25%;
@@ -61,6 +70,10 @@
   .logo{
     width: 18% ;
   }
+  /* .sclrhyt{
+    height: 915px;
+    overflow-y: scroll;
+  } */
   
 }
 
@@ -73,6 +86,13 @@
   .logo1{
     font-size:2.2rem;
   }
+  .resImgWidth{
+    width:100% ;
+  }
+  /* .sclrhyt{
+    height:auto;
+    overflow-y:none;
+  } */
   
 }
 
